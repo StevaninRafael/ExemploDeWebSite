@@ -1,0 +1,189 @@
+body{
+font-size: 1em;
+background-color: rgb(0, 0, 0);
+background-repeat: no-repeat;
+background-size:cover
+}
+head{
+  background-color: rgb(255, 255, 255);
+  color: #a80000;
+}
+
+
+
+
+#MenuTabela{
+  background: url(img/FUNDOTITULO.png) no-repeat left center;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 5px;
+}
+#NomePagina{
+  font-family: Impact;
+  font-size: 20px;
+  padding-top: 15px;
+}
+.Branco{
+  color: white;
+}
+#MenuLinks{
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+#MenuLinks a:visited,#MenuLinks a:link{
+ color: black;
+ padding: 8px 12px;
+ text-decoration: none;
+}
+#MenuLinks a:hover{
+ color: #a80000;
+ padding: 8px 12px;
+ background-color: black;
+}
+
+
+
+
+table#tabela{
+  background-color: #a80000;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 0px;
+  align-self: center;
+  position: absolute;
+  z-index: 0;
+  right: 330;
+  border: 1px solid #a80000;
+}
+tr#tabeladentrotabela{
+  background-color: black;
+}
+p#ParagrafoDaTabela{
+  color: #a80000;
+  font-family: Impact;
+  font-size: 40px;
+}
+div#LateralDireita{
+  position: absolute;
+  top: 164px;
+  right: 6px;
+  z-index: 1;
+  border-style: hidden;
+}
+table#tabelalateral{
+  background-color: #a80000;
+  border-color: #a80000;
+  border: 1px solid #a80000;
+  margin-left: 300px;
+  align-self: center;
+  border-radius: 5px;
+}
+td#TextoDireita{
+  color: white;
+  font-family: sans-serif;
+  width: 250px;
+  height: 588px;
+  border: 1px solid #a80000;
+  background: url(img/fundodireita.png) no-repeat center;
+  background-size: cover;
+}
+p#TextoTabelaLateral{
+  margin-bottom: 550px;
+  color: #a80000;
+  font-family: Impact;
+  border-radius: 5px;
+  font-size: 25px;
+}
+table#tabelaesquerda{
+  background-color: #a80000;
+  border-color: #a80000;
+  border: 1px solid #a80000;
+  margin-left: 300px;
+  align-self: center;
+  border-radius: 5px;
+}
+td#TextoEsquerda{
+  width: 250px;
+  height: 588px;
+  border: 1px solid #a80000;
+  background-color: black;
+  flex-direction: column;
+  vertical-align: top;
+}
+div#LateralEsquerda{
+  position: absolute;
+  top: 164px;
+  right: 1338px;
+  z-index: 1;
+  border-style: hidden;
+}
+a#linksesquerda{
+  font-family: Impact;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  display: block;
+  background: url(img/menudosite.png) no-repeat left center;
+  text-decoration: none;
+  color: black;
+}
+#PS{
+text-align: center;
+padding-left: 10px;
+}
+a:hover#linksesquerda{
+  background-position: right bottom;
+  -webkit-text-fill-color: white;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+table#HistoryTabela2{
+  z-index: 1;
+  background-color: #a80000;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 50px;
+  align-self: center;
+  position: absolute;
+  right: 330;
+  border: 1px solid #a80000;
+  margin-top: 250px;
+}
+tr#tabeladentrotabela2{
+  background-color: black;
+}
+td#TDInformacao{
+}
+table#HistoryTabela3{
+  z-index: 1;
+  background-color: #a80000;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 325px;
+  align-self: center;
+  position: absolute;
+  right: 330;
+  border: 1px solid #a80000;
+  margin-top: 250px;
+}
+table#HistoryTabela4{
+  z-index: 1;
+  background-color: #a80000;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 600px;
+  align-self: center;
+  position: absolute;
+  right: 330;
+  border: 1px solid #a80000;
+  margin-top: 250px;
+}
